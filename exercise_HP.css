@@ -1,0 +1,43 @@
+.general {
+font-family: arial;
+text-align: center;
+background-image: linear-gradient(to left, orange 43%, orangered, yellow);
+}
+
+#fblue {
+background-image:radial-gradient(circle, black, wheat, powderblue, dodgerblue);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+font-family: verdana;
+text-align: left;
+font-size: 77px;
+-webkit-transition: text-align 2s; /* For Safari 3.1 to 6.0 */
+    transition: text-align 2s;
+}
+
+#fblue:hover {
+text-align: right;
+opacity: 1;
+
+}
+
+#circle {
+border-radius: 50%;
+    padding: 0px;
+    border: 20px black solid;
+    margin: 19px;
+}
+
+#circle:hover {
+padding: 19px;
+border: 20px black dashed;
+margin: 0px;
+}
+
+#liste {
+type: circle}
+
+h2 {
+font-size: 36px;
+font-weight: 900;
+}
