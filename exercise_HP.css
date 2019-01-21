@@ -10,15 +10,11 @@ background-image:radial-gradient(circle, black, wheat, powderblue, dodgerblue);
  -webkit-text-fill-color: transparent;
 font-family: verdana;
 text-align: left;
-font-size: 77px;
--webkit-transition: text-align 2s; /* For Safari 3.1 to 6.0 */
-    transition: text-align 2s;
+font-size: 76px;
 }
 
 #fblue:hover {
 text-align: right;
-opacity: 1;
-
 }
 
 #circle {
@@ -35,9 +31,11 @@ margin: 0px;
 }
 
 #liste {
-type: circle}
+text-align: left;
+padding-left: 42%;
+}
 
 h2 {
-font-size: 36px;
+font-size: 47px;
 font-weight: 900;
 }
